@@ -1,2 +1,2 @@
 # MithologySite
-Proyecto para curso de maquetación
+Proyecto para curso de maquetación web.
