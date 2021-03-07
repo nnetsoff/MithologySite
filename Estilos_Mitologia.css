@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+main{
+    padding: 20px;
+    height: 1000px;
+}
+
+.Encabezado{
+    background-image: url(img/Olimpo-de-los-Dioses.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+.navigation{
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+}
+
+.navigation .lista{
+    list-style: none;
+}
+
+.navigation .lista .lista-item{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    font-size: 16px;
+}
+.navigation .lista .lista-item .lista-link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: block;
+}
+
+.navigation .lista .lista-item .lista-link:hover{
+    background-color: lightskyblue;
+}
+
+main{
+    height: 1800px;
+}
+
+.fila{
+    height: 600px;
+}
+
+.dioses{
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+}
+
+.dioses .imagen{
+    height: 300px;
+    width: 400px;
+    box-sizing: border-box;
+    background-size: 100%;
+    margin-bottom: 20px;
+    border: 5px solid lightblue;
+}
+
+.dioses .imagen .titulo{
+    margin-top: 300px;
+}
+
+#zeus{
+    background-image: url("img/Jupiter_Smyrna_Louvre_Ma13.jpg");
+}
+
+#hera{
+    background-image: url("img/Hera_Campana_Louvre_Ma2283.jpg");
+}
+
+#poseidon{
+    background-image: url("img/Poseidon_sculpture_Copenhagen_2005.jpg");
+}
+
+#dionisio{
+    background-image: url("img/Dionysos_Louvre_Ma87_n2.jpg");
+}
+
+#apolo{
+    background-image: url("img/Roman_Statue_of_Apollo.jpg");
+}
+
+#artemisa{
+    background-image: url("img/Diane_de_Versailles_Leochares_2.jpg");
+}
+
+#hermes{
+    background-image: url("img/Rude-mercury.jpg");
+}
+
+#atenea{
+    background-image: url("img/Athena_Giustiniani_Musei_Capitolini_MC278.jpg");
+}
+
+#ares{
+    background-image: url("img/Ares_villa_Hadriana.jpg");
+}
+
+#afrodita{
+    background-image: url("img/NAMA_Aphrodite_Syracuse.jpg");
+}
+
+#hefesto{
+    background-image: url("img/Vulcan_Coustou_Louvre_MR1814.jpg");
+}
+
+#demeter{
+    background-image: url("img/Hera_Barberini_Pio-Clementino_Inv254.jpg");
+}
+
+footer{
+    height: 200px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100px;
+    text-align: center;
+}
